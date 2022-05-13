@@ -270,3 +270,78 @@ section{
 .team-member.even{
     background-color: #162e6e;
 }
+
+.review .stars{
+    color: #f20717;
+
+}
+
+.review p{
+    max-width: 720px; 
+    margin: 24px auto;
+    font-style: italic;
+}
+
+#testimonials img{
+    width: 65px;
+    height: 65px;
+    border-radius: 100px;
+    transition: all 0.4s ease;
+}
+
+#testimonials .nav-pills .nav-link.nav-link.active{
+    background-color: transparent;
+}
+
+#testimonials .nav-pills .nav-link.nav-link.active{
+    transform: scale(1.3);
+}
+
+form .form-control{
+    border-radius: 0;
+
+}
+
+form .form-control:focus{
+    box-shadow: none;
+    border-color: #f20717 ;
+}
+
+#contact{
+    background-color: #E5E6E4;
+}
+
+#cta{
+    background-color: #E93B81;
+}
+
+.footer-top {
+    padding-top: 80px;
+    padding-bottom: 30px;
+ }
+ 
+ .footer-bottom {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+ }
+ 
+ footer .footer-links a,
+ footer .social-icons a {
+    color: #898fa1;
+ }
+ 
+ footer .social-icons a {
+    font-size: 24px;
+ }
+ 
+ footer .footer-links a {
+    display: block;
+    font-weight: 400;
+ }
+ 
+ footer .social-icons a:hover,
+ footer .footer-links a:hover {
+    color: #f20717;
+ }
+ 
